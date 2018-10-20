@@ -36,8 +36,7 @@ service mysql start
 - 修改brks 服务地址为`127.0.0.1`
 ```
 local opt = {
-    -- host      = '47.106.79.26',
-		-- host      = '127.0.0.1',
+		host      = '127.0.0.1',
     port      = '9090',
     protocol  = TCompactProtocol,
     transport = TFramedTransport
@@ -46,7 +45,6 @@ local opt = {
 
 - 修改手机号
 ```
--- local r = client:brk_get_mobile_code('15200599665')
 local r = client:brk_get_mobile_code('你的手机号')
 ```
 
