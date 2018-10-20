@@ -60,3 +60,7 @@ success
 
 ### 5. brks 镜像地址
   brks 镜像地址：[https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=flyfish2222&starCount=0](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=flyfish2222&starCount=0)
+  
+
+### 6. 特别说明
+- 若mysql 服务`启动失败`，请执行`chown -R mysql:mysql /var/lib/mysql`
