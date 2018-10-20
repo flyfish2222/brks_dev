@@ -36,10 +36,10 @@ service mysql start
 - 修改brks 服务地址为`127.0.0.1`
 ```
 local opt = {
-		host      = '127.0.0.1',
-    port      = '9090',
-    protocol  = TCompactProtocol,
-    transport = TFramedTransport
+	host      = '127.0.0.1',
+	port      = '9090',
+	protocol  = TCompactProtocol,
+	transport = TFramedTransport
 }
 ```
 
